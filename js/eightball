@@ -2,6 +2,7 @@
 
 
 function print(){
- process.stdout.write('welcome to the magic eightball. let me tell you something, This is made in javascript.');
+ process.stdout.write('welcome to the magic eightball. let me tell you something, This is made in javascript!');
 }
+print();
 
