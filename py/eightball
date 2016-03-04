@@ -1,7 +1,33 @@
 #!/usr/bin/env python3
 
+import random
 import skilstak.colors as c
 
-print(c.clear)
-print(c.multi('welcome to the magic eightball. Would you like to continue?'))
 
+
+awnswers = [
+    'yes'
+    'no' 
+    'no idea the world didnt tell me'
+    'what is the oppisite of yes?'
+    'did luke skywlaker blow up the death star?'
+    'my soures say no'
+    'try again later'
+    'im tired ask meh later'
+    'what you think is the awenser'
+    'only i you belive'
+    'I am the magic8ball and i say YES!'
+    'I am the magic8ball and i say NO!!'
+    ]
+
+eastereggs = [
+    ["die|death", "You died!"],
+    ["smg5", "spagetti"],
+    ["MLG", "ILLLLUMMMMINNNATTTIEEEEE with MOUNTAIN DEW and DORITOS smoken WEED"], 
+    ["Forza 6", "best game ever"]
+    ["WBD", "Chris is the worlds best driver"]
+]
+
+
+print(c.clear)
+print(c.multi('welcome to the magic8ball. would you like to continue?'))
